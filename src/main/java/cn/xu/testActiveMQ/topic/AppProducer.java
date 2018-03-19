@@ -11,7 +11,7 @@ import javax.jms.TextMessage;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 public class AppProducer {
-	private static final String url = "tcp://192.168.16.140:61616";
+	private static final String url = "tcp://127.0.0.1:61616";
 	private static final String topicName = "topic-test";
 	public static void main(String[] args) throws JMSException{
 		//1.创建connectionfactory
